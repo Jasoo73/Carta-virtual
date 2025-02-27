@@ -32,6 +32,10 @@
         <item>Mondongo</item>
     </string-array>
 
+    <string name="pastaIngredients">Pasta
+        \nCream Cheese</string>
+    <string name="pastaDesc">Cook your pasta until al dente</string>
+
     <string-array name="postres">
         <item>Sancocho</item>
         <item>Frijoles</item>

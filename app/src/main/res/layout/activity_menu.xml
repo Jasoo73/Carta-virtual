@@ -7,25 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".MenuActivity">
 
-    <LinearLayout
+    <ListView
+        android:id="@+id/listaFuertes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="69dp" />
-
-        <ListView
-            android:id="@id/android:list"
-            android:layout_width="match_parent"
-            android:layout_height="586dp">
-
-        </ListView>
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="69dp" />
-    </LinearLayout>
+        android:entries="@array/fuertes"
+        tools:layout_editor_absoluteX = "202dp"
+        tools:layout_editor_absoluteY = "0dp"    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
