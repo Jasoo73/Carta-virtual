@@ -41,16 +41,16 @@ public class SedesActivity extends AppCompatActivity implements OnMapReadyCallba
         mMap = googleMap;
 
         // Add marker in brasil
-        LatLng brasil = new LatLng(-38.416097, -63.616672);
-        mMap.addMarker(new MarkerOptions().position(brasil).title("Marker in Brasil"));
+        LatLng aranjuez = new LatLng(6.285068, -75.555971);
+        mMap.addMarker(new MarkerOptions().position(aranjuez).title("Mago de OZ : Aranjuez"));
 
         // Add a marker in UPB
-        LatLng upbMed = new LatLng(6.2442623,-75.5873705);
-        mMap.addMarker(new MarkerOptions().position(upbMed).title("UPB Medellin"));
+        LatLng upbMed = new LatLng(6.247120, -75.589154);
+        mMap.addMarker(new MarkerOptions().position(upbMed).title("Kraken: Carrera 70"));
 
         // Add a marker in Medellin and move the camera
-        LatLng medellin = new LatLng(6.25184, -75.56359);
-        mMap.addMarker(new MarkerOptions().position(medellin).title("Marker in Medellin"));
+        LatLng medellin = new LatLng(6.334999, -75.557858);
+        mMap.addMarker(new MarkerOptions().position(medellin).title("Dragon: Bello"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(medellin, 15f));
         //mMap.setMaxZoomPreference(5000f);
         mMap.setMinZoomPreference(13f);

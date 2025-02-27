@@ -7,66 +7,69 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- LinearLayout central para alinear todo verticalmente -->
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:gravity="center_horizontal|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp">
 
-        <Space
+        <!-- Título de la app -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenidos a La Cabeza Del Orco"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="40dp"
+            android:textStyle="bold"/>
+
+        <!-- Botón para ver el menú -->
+        <Button
+            android:id="@+id/buttonMenu1"
             android:layout_width="match_parent"
-            android:layout_height="49dp" />
+            android:layout_height="wrap_content"
+            android:onClick="verMenu"
+            android:text="@string/buttonMenu"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#8B4513"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:gravity="center"/>
 
-        <LinearLayout
+        <!-- Botón para consultar las sedes -->
+        <Button
+            android:id="@+id/buttonVerSedes2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_horizontal|center_vertical"
-            android:orientation="vertical"
-            android:paddingBottom="50dip">
+            android:layout_height="wrap_content"
+            android:onClick="consultarSedes"
+            android:text="@string/buttonSedes"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#8B4513"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:gravity="center"/>
 
-            <Button
-                android:id="@+id/buttonMenu1"
-                style="@style/Widget.Material3.Button"
-                android:layout_width="350dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:onClick="verMenu"
-                android:text="@string/buttonMenu"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                tools:text="@string/buttonMenu" />
-
-            <Button
-                android:id="@+id/buttonVerSedes2"
-                style="@style/Widget.Material3.Button"
-                android:layout_width="350dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:onClick="consultarSedes"
-                android:text="@string/buttonSedes"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                tools:text="@string/buttonSedes" />
-
-            <Button
-                android:id="@+id/buttonVerSedes"
-                style="@style/Widget.Material3.Button"
-                android:layout_width="350dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:onClick="Reservar"
-                android:text="@string/buttonReserva"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                tools:text="@string/buttonReserva" />
-
-        </LinearLayout>
+        <!-- Botón para hacer la reserva -->
+        <Button
+            android:id="@+id/buttonVerSedes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Reservar"
+            android:text="@string/buttonReserva"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#8B4513"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:gravity="center"/>
 
     </LinearLayout>
 

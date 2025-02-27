@@ -17,7 +17,7 @@ public class MenuActivity extends AppCompatActivity implements AdapterView.OnIte
 
     //Declaramos variables
 
-    String [] Categorias = new String [] {"Entrada", "Platos Fuertes", "Bebidas", "Postres"};
+    String [] Categorias = new String [] {"Entrada", "Platos Fuertes", "Bebidas", "Postres", "Licores"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

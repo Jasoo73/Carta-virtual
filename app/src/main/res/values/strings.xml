@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MiRestaurante</string>
+    <string name="app_name">La Cabeza Del Orco</string>
 
     <!--Titulo App-->
 
@@ -25,7 +25,28 @@
         <item>Deditos de queso</item>
     </string-array>
 
-    <string-array name="platos">
+    <string-array name="fuertes">
+        <item>Sancocho</item>
+        <item>Frijoles</item>
+        <item>Bandeja paisa</item>
+        <item>Mondongo</item>
+    </string-array>
+
+    <string-array name="postres">
+        <item>Sancocho</item>
+        <item>Frijoles</item>
+        <item>Bandeja paisa</item>
+        <item>Mondongo</item>
+    </string-array>
+
+    <string-array name="licores">
+        <item>Sancocho</item>
+        <item>Frijoles</item>
+        <item>Bandeja paisa</item>
+        <item>Mondongo</item>
+    </string-array>
+
+    <string-array name="bebidas">
         <item>Sancocho</item>
         <item>Frijoles</item>
         <item>Bandeja paisa</item>

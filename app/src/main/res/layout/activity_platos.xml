@@ -8,10 +8,10 @@
     tools:context=".PlatosActivity">
 
     <ListView
-        android:id="@+id/listaPlatos"
+        android:id="@+id/listaFuertes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:entries="@array/platos"
+        android:entries="@array/fuertes"
         tools:layout_editor_absoluteX = "202dp"
         tools:layout_editor_absoluteY = "0dp"    />
 

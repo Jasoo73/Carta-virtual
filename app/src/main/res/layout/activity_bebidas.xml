@@ -7,4 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".BebidasActivity">
 
+    <ListView
+        android:id="@+id/listaBebidas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:entries="@array/bebidas"
+        tools:layout_editor_absoluteX = "202dp"
+        tools:layout_editor_absoluteY = "0dp"    />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
