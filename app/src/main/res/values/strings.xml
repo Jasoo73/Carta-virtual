@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">La Cabeza Del Orco</string>
 
+    <string-array name="categorias">
+        <item>Platos Fuertes</item>
+        <item>Entradas</item>
+        <item>Bebidas</item>
+        <item>Postres</item>
+    </string-array>
+
     <!--Titulo App-->
 
     <string name="title_activity_sedes">SedesActivity</string>
@@ -14,6 +21,7 @@
     <!--Información de botones-->
     <string name="buttonSedes">Conoce nuestras ubicaciones</string>
     <string name="buttonMenu">Conoce nuestros productos</string>
+    <string name="Menu">Menu</string>
     <string name="buttonReserva">Contáctanos para hacer tu reserva</string>
 
     <!--Información de los productos-->
