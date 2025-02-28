@@ -12,7 +12,7 @@ public class Producto {
     }
     public Producto(String titulo, String descripcion, Integer image) {
         this.titulo = titulo;
-        this.descripcion = "";
+        this.descripcion = descripcion;
         this.image = image;
     }
 }

@@ -1,11 +1,17 @@
 <resources>
+
+    <!--Nombre de la App-->
+
     <string name="app_name">La Cabeza Del Orco</string>
+
+    <!--Clasificación de productos-->
 
     <string-array name="categorias">
         <item>Entradas</item>
         <item>Platos Fuertes</item>
         <item>Bebidas</item>
         <item>Postres</item>
+        <item>Licores</item>
     </string-array>
 
     <!--Titulo App-->
@@ -19,6 +25,7 @@
     <string name="titulo">My restaurant</string>
 
     <!--Información de botones-->
+
     <string name="buttonSedes">Conoce nuestras ubicaciones</string>
     <string name="buttonMenu">Conoce nuestros productos</string>
     <string name="Menu">Menu</string>
@@ -27,15 +34,33 @@
     <string name="Entradas">Entradas</string>
     <string name="Bebidas">Bebidas</string>
     <string name="Postres">Postres</string>
+    <string name="Licores">Licores</string>
 
     <!--Información de los productos-->
 
+
+    <!--Entradas-->
+
     <string-array name="entradas">
-        <item>Empanadas</item>
-        <item>Patacones</item>
-        <item>Sopa del dia</item>
-        <item>Deditos de queso</item>
+        <item>Sancocho</item>
+        <item>Frijoles</item>
+        <item>Bandeja paisa</item>
+        <item>Mondongo</item>
     </string-array>
+    <string-array name="entradasDescripciones">
+        <item>Descripción del Plato 1</item>
+        <item>Descripción del Plato 2</item>
+        <item>Descripción del Plato 3</item>
+        <item>Descripción del Plato 4</item>
+    </string-array>
+    <array name="entradasImagenes">
+        <item>@drawable/carne</item>
+        <item>@drawable/estofado</item>
+        <item>@drawable/sopa</item>
+        <item>@drawable/sushi</item>
+    </array>
+
+    <!--Fuertes-->
 
     <string-array name="fuertes">
         <item>Sancocho</item>
@@ -56,9 +81,7 @@
     <item>@drawable/sushi</item>
     </array>
 
-    <string name="pastaIngredients">Pasta
-        \nCream Cheese</string>
-    <string name="pastaDesc">Cook your pasta until al dente</string>
+    <!--Postres-->
 
     <string-array name="postres">
         <item>Sancocho</item>
@@ -66,6 +89,20 @@
         <item>Bandeja paisa</item>
         <item>Mondongo</item>
     </string-array>
+    <string-array name="postresDescripciones">
+        <item>Descripción del Plato 1</item>
+        <item>Descripción del Plato 2</item>
+        <item>Descripción del Plato 3</item>
+        <item>Descripción del Plato 4</item>
+    </string-array>
+    <array name="postresImagenes">
+        <item>@drawable/carne</item>
+        <item>@drawable/estofado</item>
+        <item>@drawable/sopa</item>
+        <item>@drawable/sushi</item>
+    </array>
+
+    <!--Licores-->
 
     <string-array name="licores">
         <item>Sancocho</item>
@@ -73,6 +110,20 @@
         <item>Bandeja paisa</item>
         <item>Mondongo</item>
     </string-array>
+    <string-array name="licoresDescripciones">
+        <item>Descripción del Plato 1</item>
+        <item>Descripción del Plato 2</item>
+        <item>Descripción del Plato 3</item>
+        <item>Descripción del Plato 4</item>
+    </string-array>
+    <array name="licoresImagenes">
+        <item>@drawable/carne</item>
+        <item>@drawable/estofado</item>
+        <item>@drawable/sopa</item>
+        <item>@drawable/sushi</item>
+    </array>
+
+    <!--Bebidas-->
 
     <string-array name="bebidas">
         <item>Sancocho</item>
@@ -80,4 +131,16 @@
         <item>Bandeja paisa</item>
         <item>Mondongo</item>
     </string-array>
+    <string-array name="bebidasDescripciones">
+        <item>Descripción del Plato 1</item>
+        <item>Descripción del Plato 2</item>
+        <item>Descripción del Plato 3</item>
+        <item>Descripción del Plato 4</item>
+    </string-array>
+    <array name="bebidasImagenes">
+        <item>@drawable/carne</item>
+        <item>@drawable/estofado</item>
+        <item>@drawable/sopa</item>
+        <item>@drawable/sushi</item>
+    </array>
 </resources>
