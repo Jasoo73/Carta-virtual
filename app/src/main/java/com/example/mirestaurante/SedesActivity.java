@@ -91,78 +91,78 @@ public class SedesActivity extends AppCompatActivity implements OnMapReadyCallba
         mMap.addMarker(new MarkerOptions()
                 .position(envigado)
                 .title("Taberna en Envigado")
-                .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
+                .snippet("Reino de Azeroth: Envigado")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(poblado)
-                .title("Taberna en El Poblado")
+                .title("Reino de Quel'Thalas: El Poblado")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(sabaneta)
-                .title("Taberna en Sabaneta")
+                .title("Reino de Stranglethorn: Sabaneta")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(estrella)
-                .title("Taberna en La Estrella")
+                .title("Reino de Northrend: La Estrella")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(berrio)
-                .title("Taberna en Parque Berrío")
+                .title("Reino de Pandaria: Parque Berrío")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(palmas)
-                .title("Taberna en Las Palmas")
+                .title("Reino de Outland: Las Palmas")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(llanoGrande)
-                .title("Taberna en Llanogrande")
+                .title("Reino de Zandalar: Llanogrande")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(buenosAires)
-                .title("Taberna en Buenos Aires")
+                .title("Reino de Kul Tiras: Buenos Aires")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(robledo)
-                .title("Taberna en Robledo")
+                .title("Reino de Gilneas: Robledo")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(villaHermosa)
-                .title("Taberna en Villa Hermosa")
+                .title("Reino de Suramar: Villa Hermosa")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(calle70)
-                .title("Taberna en Buenos Aires")
+                .title("Reino de Teldrassil: Calle 70")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(aranjuez)
-                .title("Taberna en Robledo")
+                .title("Reino de Dun Morogh: Aranjuez")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
         mMap.addMarker(new MarkerOptions()
                 .position(bello)
-                .title("Taberna en Villa Hermosa")
+                .title("Reino de Durotar: Bello")
                 .snippet("Dirección: Calle X # Y - Z\nHorario: 6PM - 2AM")
                 .icon(resizeMapIcon(100, 100)));
 
