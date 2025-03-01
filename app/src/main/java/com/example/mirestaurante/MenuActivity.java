@@ -66,9 +66,16 @@ public class MenuActivity extends AppCompatActivity implements AdapterView.OnIte
         l_categorias.clear();
 
         String[] categorias = getResources().getStringArray(R.array.categorias);
+        int[] imagenesCategorias = {
+                R.drawable.entradas,  // Imagen para Entradas
+                R.drawable.festinn,  // Imagen para Platos Fuertes
+                R.drawable.alquimia,  // Imagen para Bebidas
+                R.drawable.mesa_postres,  // Imagen para Postres
+                R.drawable.vino_portada  // Imagen para Licores
+        };
 
-        for (String categoria : categorias) {
-            l_categorias.add(new Producto(categoria, "", R.drawable.festinn)); // Descripción vacía
+        for (int i = 0; i < categorias.length; i++) {
+            l_categorias.add(new Producto(categorias[i], "", imagenesCategorias[i]));
         }
     }
 

@@ -47,10 +47,10 @@ public class PostresActivity extends AppCompatActivity {
         l_categorias.clear();
 
         // Obtener las categorías de los platos fuertes desde el archivo de recursos
-        String[] postresNombres = getResources().getStringArray(R.array.entradas);                      //AQUÍ
-        String[] postresDescripciones = getResources().getStringArray(R.array.entradasDescripciones);       //AQUÍ
+        String[] postresNombres = getResources().getStringArray(R.array.postres);                      //AQUÍ
+        String[] postresDescripciones = getResources().getStringArray(R.array.postresDescripciones);       //AQUÍ
 
-        TypedArray postresImagenes = getResources().obtainTypedArray(R.array.entradasImagenes);         //AQUÍ
+        TypedArray postresImagenes = getResources().obtainTypedArray(R.array.postresImagenes);         //AQUÍ
 
         // Iterar sobre las categorías y crear los objetos Producto
         for (int i = 0; i < postresNombres.length; i++) {                                              //AQUÍ

@@ -33,25 +33,45 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void verMenu (View v){
+    public void verMenu(View v) {
         Intent i = new Intent(this, MenuActivity.class);
         startActivity(i);
     }
 
-    public void Reservar (View v) {
+    public void verPromociones(View v) {
+        Intent i = new Intent(this, PromocionesActivity.class);
+        startActivity(i);
+    }
+
+    public void Reservar(View v) {
         //Intent i = new Intent(this,MenuActivity.class);
         //startActivity(i);
 
         String numeroTelefono = "+573023213763";
-        String mensajePredeterminado = "Hola, muchas gracias por comunicarse con nosotros en unos segundo te atendemos";
+        String mensajePredeterminado = "Hola, gracias por comunicarse con nosotros. En breve, uno de nuestros asesores atenderá su solicitud. ¡Quedamos atentos!";
 
+        PackageManager pm = getPackageManager();
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+
+        // Crear la URI con el número de teléfono y el mensaje
         Uri uri = Uri.parse("whatsapp://send?phone=" + numeroTelefono + "&text=" + Uri.encode(mensajePredeterminado));
 
-        //Aqui podemos conectarnos a un proveedor en este caso, llama el paquete de Whatsapp
-        PackageManager pm = getPackageManager();
-        Intent i = new Intent(Intent.ACTION_VIEW);
-        //Intent i = pm.getLaunchIntentForPackage("com.whatsapp");
-        i.setData(uri);
-        startActivity(i);
+        intent.setData(uri);
+
+        if (isAppInstalled("com.whatsapp", pm)) {
+            startActivity(intent);
+        } else {
+            // Mostrar mensaje si WhatsApp no está instalado
+            android.widget.Toast.makeText(this, "WhatsApp no está instalado en este dispositivo", android.widget.Toast.LENGTH_LONG).show();
+        }
+    }
+
+    private boolean isAppInstalled(String packageName, PackageManager pm) {
+        try {
+            pm.getPackageInfo(packageName, PackageManager.GET_ACTIVITIES);
+            return true;
+        } catch (PackageManager.NameNotFoundException e) {
+            return false;
+        }
     }
 }

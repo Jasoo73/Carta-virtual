@@ -13,19 +13,21 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
+        android:background="@drawable/taberna"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:padding="20dp">
 
+
         <!-- Título de la app -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bienvenidos a La Cabeza Del Orco"
+            android:text="Bienvenidos a The Shady Lady"
             android:textSize="24sp"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/white"
             android:layout_marginBottom="40dp"
             android:textStyle="bold"/>
 
@@ -38,12 +40,13 @@
             android:text="@string/buttonMenu"
             android:textSize="18sp"
             android:textColor="@android:color/white"
-            android:backgroundTint="#8B4513"
+            android:backgroundTint="#CC808080"
             android:layout_marginBottom="20dp"
             android:padding="15dp"
             android:gravity="center"/>
 
         <!-- Botón para consultar las sedes -->
+
         <Button
             android:id="@+id/buttonVerSedes2"
             android:layout_width="match_parent"
@@ -52,7 +55,7 @@
             android:text="@string/buttonSedes"
             android:textSize="18sp"
             android:textColor="@android:color/white"
-            android:backgroundTint="#8B4513"
+            android:backgroundTint="#CC808080"
             android:layout_marginBottom="20dp"
             android:padding="15dp"
             android:gravity="center"/>
@@ -66,7 +69,20 @@
             android:text="@string/buttonReserva"
             android:textSize="18sp"
             android:textColor="@android:color/white"
-            android:backgroundTint="#8B4513"
+            android:backgroundTint="#CC808080"
+            android:layout_marginBottom="20dp"
+            android:padding="15dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/buttonVerPromociones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="verPromociones"
+            android:text="Viernes de Banquete Dracónico"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#CC808080"
             android:layout_marginBottom="20dp"
             android:padding="15dp"
             android:gravity="center"/>

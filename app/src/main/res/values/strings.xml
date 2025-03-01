@@ -2,7 +2,7 @@
 
     <!--Nombre de la App-->
 
-    <string name="app_name">La Cabeza Del Orco</string>
+    <string name="app_name">The Shady Lady</string>
 
     <!--Clasificación de productos-->
 
@@ -28,13 +28,15 @@
 
     <string name="buttonSedes">Conoce nuestras ubicaciones</string>
     <string name="buttonMenu">Conoce nuestros productos</string>
-    <string name="Menu">Menu</string>
     <string name="buttonReserva">Contáctanos para hacer tu reserva</string>
+    <string name="ButtonPromociones">Viernes de Banquete Dracónico</string>
+    <string name="Menu">Menu</string>
     <string name="Platos">Platos Fuertes</string>
     <string name="Entradas">Entradas</string>
     <string name="Bebidas">Bebidas</string>
     <string name="Postres">Postres</string>
     <string name="Licores">Licores</string>
+
 
     <!--Información de los productos-->
 
@@ -42,105 +44,133 @@
     <!--Entradas-->
 
     <string-array name="entradas">
-        <item>Sancocho</item>
-        <item>Frijoles</item>
-        <item>Bandeja paisa</item>
-        <item>Mondongo</item>
+        <item>Salmón Emperador Pochado</item>
+        <item>Queso Curado de Alterac</item>
+        <item>Pan de Maíz Húmedo</item>
+        <item>Bayas de Skethyl</item>
     </string-array>
+
     <string-array name="entradasDescripciones">
-        <item>Descripción del Plato 1</item>
-        <item>Descripción del Plato 2</item>
-        <item>Descripción del Plato 3</item>
-        <item>Descripción del Plato 4</item>
+        <item>Un delicado filete de salmón cocido a fuego lento, conservando su sabor y textura.</item>
+        <item>Un queso madurado en las frías montañas de Alterac, con un sabor fuerte e intenso.</item>
+        <item>Un pan denso y esponjoso, hecho con la mejor harina de maíz.</item>
+        <item>Frutas silvestres recolectadas en los bosques de Skethyl, dulces y refrescantes.</item>
     </string-array>
+
     <array name="entradasImagenes">
-        <item>@drawable/carne</item>
-        <item>@drawable/estofado</item>
-        <item>@drawable/sopa</item>
-        <item>@drawable/sushi</item>
+        <item>@drawable/salmon</item>
+        <item>@drawable/queso</item>
+        <item>@drawable/pan</item>
+        <item>@drawable/baya</item>
     </array>
 
     <!--Fuertes-->
 
     <string-array name="fuertes">
-        <item>Sancocho</item>
-        <item>Frijoles</item>
-        <item>Bandeja paisa</item>
-        <item>Mondongo</item>
+        <item>Chili de la Legión</item>
+        <item>Trucha de Montaña a la Parrilla</item>
+        <item>Sushi de Panzanegra</item>
+        <item>Salchicha de Solsticio de Verano</item>
     </string-array>
+
     <string-array name="fuertesDescripciones">
-        <item>Descripción del Plato 1</item>
-        <item>Descripción del Plato 2</item>
-        <item>Descripción del Plato 3</item>
-        <item>Descripción del Plato 4</item>
+        <item>Un estofado picante inspirado en los guerreros de la Legión.</item>
+        <item>Un pescado fresco, capturado en los ríos más puros y cocinado a la perfección.</item>
+        <item>Delicado y exótico sushi preparado con el raro pez Panzanegra.</item>
+        <item>Una jugosa salchicha asada sobre las llamas de la celebración del solsticio.</item>
     </string-array>
+
     <array name="fuertesImagenes">
-    <item>@drawable/carne</item>
-    <item>@drawable/estofado</item>
-    <item>@drawable/sopa</item>
-    <item>@drawable/sushi</item>
+        <item>@drawable/chili</item>
+        <item>@drawable/trucha</item>
+        <item>@drawable/sushi</item>
+        <item>@drawable/salchicha</item>
     </array>
 
     <!--Postres-->
 
     <string-array name="postres">
-        <item>Sancocho</item>
-        <item>Frijoles</item>
-        <item>Bandeja paisa</item>
-        <item>Mondongo</item>
+        <item>Helado de fresa de Tigule y Foror</item>
+        <item>Galleta de jengibre</item>
+        <item>Pastel de chocolate delicioso</item>
+        <item>Tarta de bayas de saúco</item>
     </string-array>
     <string-array name="postresDescripciones">
-        <item>Descripción del Plato 1</item>
-        <item>Descripción del Plato 2</item>
-        <item>Descripción del Plato 3</item>
-        <item>Descripción del Plato 4</item>
+        <item>Un helado de fresa que deleita con su sabor dulce y refrescante.</item>
+        <item>Una galleta de jengibre crujiente y aromática, perfecta para cualquier ocasión.</item>
+        <item>Un pastel de chocolate exquisito que te hará sentir muy feliz.</item>
+        <item>Una tarta elaborada con bayas de saúco frescas, ofreciendo un sabor único y delicioso.</item>
     </string-array>
     <array name="postresImagenes">
-        <item>@drawable/carne</item>
-        <item>@drawable/estofado</item>
-        <item>@drawable/sopa</item>
-        <item>@drawable/sushi</item>
+        <item>@drawable/helado</item>
+        <item>@drawable/galleta</item>
+        <item>@drawable/pastel</item>
+        <item>@drawable/tarta</item>
     </array>
 
     <!--Licores-->
 
     <string-array name="licores">
-        <item>Sancocho</item>
-        <item>Frijoles</item>
-        <item>Bandeja paisa</item>
-        <item>Mondongo</item>
+        <item>Cerveza tostada de Foote</item>
+        <item>Cerveza de Lordaeron</item>
+        <item>Cerveza de Lagrave</item>
+        <item>Cerveza del Padre Invierno</item>
     </string-array>
     <string-array name="licoresDescripciones">
-        <item>Descripción del Plato 1</item>
-        <item>Descripción del Plato 2</item>
-        <item>Descripción del Plato 3</item>
-        <item>Descripción del Plato 4</item>
+        <item>Una bebida alcohólica fuerte.</item>
+        <item>Una bebida alcohólica bastante suave.</item>
+        <item>Una bebida alcohólica fuerte.</item>
+        <item>Una bebida alcohólica fuerte.</item>
     </string-array>
     <array name="licoresImagenes">
-        <item>@drawable/carne</item>
-        <item>@drawable/estofado</item>
-        <item>@drawable/sopa</item>
-        <item>@drawable/sushi</item>
+        <item>@drawable/cerveza_tostada_de_foote</item>
+        <item>@drawable/cerveza_de_lordaeron</item>
+        <item>@drawable/cerveza_de_lagrave</item>
+        <item>@drawable/cerveza_del_padre_invierno</item>
     </array>
 
     <!--Bebidas-->
 
     <string-array name="bebidas">
-        <item>Sancocho</item>
-        <item>Frijoles</item>
-        <item>Bandeja paisa</item>
-        <item>Mondongo</item>
+        <item>Poción de Maná</item>
+        <item>Poción Antimagia</item>
+        <item>Poción de Heroicidad</item>
+        <item>Poción de Sanación Menor</item>
     </string-array>
     <string-array name="bebidasDescripciones">
-        <item>Descripción del Plato 1</item>
-        <item>Descripción del Plato 2</item>
-        <item>Descripción del Plato 3</item>
-        <item>Descripción del Plato 4</item>
+        <item>Restaura la energía arcana.</item>
+        <item>Otorga resistencia contra hechizos.</item>
+        <item>Aumenta la fuerza y la vitalidad.</item>
+        <item>Acelera la recuperación de heridas.</item>
     </string-array>
     <array name="bebidasImagenes">
-        <item>@drawable/carne</item>
-        <item>@drawable/estofado</item>
-        <item>@drawable/sopa</item>
-        <item>@drawable/sushi</item>
+        <item>@drawable/pocion_de_mana</item>
+        <item>@drawable/pocion_antimagia</item>
+        <item>@drawable/pocion_de_heroicidad</item>
+        <item>@drawable/pocion_de_sanacion_menor</item>
     </array>
+
+    <!--Promociones-->
+
+    <string-array name="promociones">
+        <item>Almejas Hervidas</item>
+        <item>Morcilla</item>
+        <item>Carne de Oso Ahumada</item>
+        <item>Anguila Ensartada</item>
+    </string-array>
+
+    <string-array name="promocionesDescripciones">
+        <item>Tiernas almejas hervidas en un caldo de hierbas marinas, con un toque de limón.</item>
+        <item>Un embutido denso y especiado, hecho con la mejor sangre y carne curada.</item>
+        <item>Carne de oso ahumada lentamente, resaltando su sabor fuerte y terroso.</item>
+        <item>Jugosos trozos de anguila ensartados y asados a la perfección.</item>
+    </string-array>
+
+    <array name="promocionesImagenes">
+        <item>@drawable/almejas</item>
+        <item>@drawable/salchichas_sangre</item>
+        <item>@drawable/carne_oso</item>
+        <item>@drawable/anguila</item>
+    </array>
+
 </resources>
